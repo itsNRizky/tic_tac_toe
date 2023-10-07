@@ -27,3 +27,9 @@ Start the server
   npm run dev
 ```
 
+
+## Deployment
+
+You may visit:
+
+[Tic Tac Toe](https://tic-tac-toe-blue-gamma.vercel.app/)
