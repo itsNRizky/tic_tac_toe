@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useState } from "react";
 
 type GameplayContextType = {
@@ -15,20 +14,20 @@ type GameplayContextType = {
 
 const GameplayContext = React.createContext<GameplayContextType>({
   turn: "",
-  setTurn: function (value: React.SetStateAction<string>): void {
+  setTurn: function (): void {
     throw new Error("Function not implemented.");
   },
   filled: [],
-  setFilled: function (value: React.SetStateAction<string[]>): void {
+  setFilled: function (): void {
     throw new Error("Function not implemented.");
   },
   winConditions: [],
   winner: "",
-  setWinner: function (value: React.SetStateAction<string>): void {
+  setWinner: function (): void {
     throw new Error("Function not implemented.");
   },
   winPosition: "",
-  setWinPosition: function (value: React.SetStateAction<string>): void {
+  setWinPosition: function (): void {
     throw new Error("Function not implemented.");
   },
 });
